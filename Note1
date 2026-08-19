@@ -1,0 +1,21 @@
+after Evaluation the Model, The user can answer this type of question lile 
+Is the model giving correct answers?
+Is the model's answer relevant to the question?
+Does the model follow instructions correctly?
+Does the model hallucinate?
+Is the model consistent in its responses?
+Is the model good at reasoning?
+Is the model good at coding?
+Does the model understand the provided context?
+Is the response faithful to the source or provided context?
+Is the response complete?
+Is the model safe?
+Which model performs better?
+Which model is better for my particular use case?
+What are the model's weaknesses?
+Has the model improved after making changes?
+Is the model fast enough?
+Is the model cost-effective?
+Is the model reliable enough for production?
+Does the model perform consistently across different types of inputs?
+Is the model suitable for the intended application?
