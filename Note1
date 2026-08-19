@@ -44,7 +44,33 @@ LLM Evaluation workflow How component?
 again follow step 5 , 6 ,7 
 8. Deploy and monitor, production failure ----> add this in the golden data set, and repeat the step 3 to end
 
-One LLm Based application have several LLm evals
+One LLm Based application have several LLm evals pipelines
+there may be multiple failure points in the appliation
+so we need to have multile evaluation pipeline on the failure points , like in RAG , we have retriver, and generator as failure point. 
+also ypu need to have one workflow level evaluation, so that you could know the accuracy of the application, combine multiple failure pipeline.
+ex:- RAG - retrival k = 5 and geneartor generate some wrong because of it has some irrelevent retrival. so to deal with this we nmeed to add workflow level rag.
+
+re-rank this solution
+--- retrive multiple retrival k = 5 , 
+
+it might me taking to long time to answer the question.
+also need to apply some application level eval ( check the lateny of the appliation, speed of the model to answer user question)
+[ component, workflow, application]
+
+it should also focus on risk cat :
+  applicaiton quality :- anser is faithfullness , grounded 
+  safety :- answer should not be toxic, harmfull, dangerous, private data leak
+  operational :- fast, relible 
+f
+it should also be safe , faithfull, grounded , should not content more cost, 
+
+
+
+
+
+
+
+
 
 
 
