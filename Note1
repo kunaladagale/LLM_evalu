@@ -19,3 +19,33 @@ Is the model cost-effective?
 Is the model reliable enough for production?
 Does the model perform consistently across different types of inputs?
 Is the model suitable for the intended application?
+
+
+on the basis of these cat the models are evaluated 
+1. Reasoning
+2. Knowledge
+3. Math
+4. Coding
+5. Instruction following
+6. Long-context
+7. multi-model-understanding
+8. tool use 
+this is evaluted by using bencmark, 
+
+LLM Evaluation workflow How component?
+
+1. Define the task and target that you wanted to evaluate.
+2. define the succes criteria ( using accuracy )
+3. build a data set ( use actuak data , create a data which is also called as golden dataset)
+4. Define a evalution method ( automation , human, or llm) 
+5. run the model ( the data set which you have, compare the result of that with the result if the application and calculate accuracy)
+6. Evaluate the Result 
+7. Analyse the result why , improve the model by applying different approch
+again follow step 5 , 6 ,7 
+8. Deploy and monitor, production failure ----> add this in the golden data set, and repeat the step 3 to end
+
+One LLm Based application have several LLm evals
+
+
+
+
